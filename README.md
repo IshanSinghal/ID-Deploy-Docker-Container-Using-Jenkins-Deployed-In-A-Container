@@ -13,10 +13,27 @@
     start the container again.
 ```
 
-## Step 1  - Create Dockerfile & run jenkins
+## Step 1 - Create Dockerfile & run Jenkins
    ![Dockerfile Jenkins](/images/Jenkins_Dockerfile.jpg)
 ```
 #docker build -t jenkins:v1 .
 #docker run -dit -P --name j1 jenkins:v1
 ```
+## Step 2 - Jenkins Plugins needed and their config.
+```
+GitHub Plugin
+SSH Plugin
+Build Pipeline Plugin
+Email Notification
+
+Provide your HOST IP in SSH settings.
+Configure smtp.
+```
+## Step 3 - Download docker images
+```
+#docker pull vimal13/apache-webserver-php
+#docker pull python:alpine3.7
+```
+Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a better understanding.
+
 
