@@ -34,6 +34,6 @@ Configure smtp.
 #docker pull vimal13/apache-webserver-php
 #docker pull python:alpine3.7
 ```
-Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a better understanding.
+Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a better understanding of how to setup a python webapp in a docker container.
 
 
