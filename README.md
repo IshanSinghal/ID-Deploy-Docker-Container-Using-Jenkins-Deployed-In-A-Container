@@ -39,17 +39,23 @@ Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a 
 ## Job 1 - Get Files From GitHub
    ![Dockerfile Jenkins](/images/getfromgithub1.jpg)
 ```Copy the contents to HOST OS```
+
    ![Dockerfile Jenkins](/images/getfromgithub2.jpg)
+   
 ## Job 2 - Identify and deploy type of container
    ![Dockerfile Jenkins](/images/deploy1.jpg)
    ![Dockerfile Jenkins](/images/deploy2.jpg)
 ``` If files are of type HTML/PHP we will deploy apache webserver else a python server```
+
 ## Job 3 -  Testing and Email Notification
    ![Dockerfile Jenkins](/images/test1.jpg)
    ![Dockerfile Jenkins](/images/test2.jpg)
+   
 ## Job 4 - Monitor
 ``` We will continuously monitor our server. If it goes down, Jenkins will restart it```
+
    ![Dockerfile Jenkins](/images/monitor1.jpg)
    ![Dockerfile Jenkins](/images/monitor2.jpg)
+   
 ### Build pipeline is used for better visualization
    ![Dockerfile Jenkins](/images/Build_Pipeline.jpg)
