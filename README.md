@@ -45,7 +45,12 @@ Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a 
 ## Job 2 - Identify and deploy type of container
    ![Dockerfile Jenkins](/images/deploy1.jpg)
    ![Dockerfile Jenkins](/images/deploy2.jpg)
-``` If files are of type HTML/PHP we will deploy apache webserver else a python server```
+``` 
+    If files are of type HTML/PHP we will deploy apache webserver else a python server.
+    First if checks if server is already running.
+    Else second condition checks if the server has stopped and restart it.
+    Else third condition deploys a new server.
+```
 
 ## Job 3 -  Testing and Email Notification
    ![Dockerfile Jenkins](/images/test1.jpg)
