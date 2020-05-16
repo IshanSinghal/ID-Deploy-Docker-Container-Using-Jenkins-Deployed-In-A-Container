@@ -38,9 +38,14 @@ Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a 
 
 ## Job 1 - Get Files From GitHub
    ![Dockerfile Jenkins](/images/getfromgithub1.jpg)
-```Copy the contents to HOST OS```
+```
+Clone remote repo to its workspace
+```
 
    ![Dockerfile Jenkins](/images/getfromgithub2.jpg)
+```
+Copy workspace folder to host os which we will later attach to production server.
+```
    
 ## Job 2 - Identify and deploy type of container
    ![Dockerfile Jenkins](/images/deploy1.jpg)
