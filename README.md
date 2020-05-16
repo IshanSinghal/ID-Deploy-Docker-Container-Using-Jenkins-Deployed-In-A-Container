@@ -13,5 +13,10 @@
     start the container again.
 ```
 
-## Step 1  - Create Dockerfile
+## Step 1  - Create Dockerfile & run jenkins
    ![Dockerfile Jenkins](/images/Jenkins_Dockerfile.jpg)
+```
+#docker build -t jenkins:v1 .
+#docker run -dit -P --name j1 jenkins:v1
+```
+
