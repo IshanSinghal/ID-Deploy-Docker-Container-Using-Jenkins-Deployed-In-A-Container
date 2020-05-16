@@ -14,4 +14,4 @@
 ```
 
 ## Step 1  - Create Dockerfile
-                            ![Dockerfile Jenkins](/images/Jenkins_Dockerfile.jpg)
+   ![Dockerfile Jenkins](/images/Jenkins_Dockerfile.jpg)
