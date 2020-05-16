@@ -62,4 +62,4 @@ Please read https://www.wintellect.com/containerize-python-app-5-minutes/ for a 
    
 ## Future Updates:
    Make the process more intelligent by implementing it through Kubernetes.
-   K8s will automactically handle monitoring and replication.
+   K8s will automactically handle monitoring and replication(auto-scaling).
