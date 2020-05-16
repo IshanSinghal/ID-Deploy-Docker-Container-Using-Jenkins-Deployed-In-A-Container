@@ -15,6 +15,12 @@
 
 ## Step 1 - Create Dockerfile & run Jenkins
    ![Dockerfile Jenkins](/images/Jenkins_Dockerfile.jpg)
+``` 
+We install Jenkins on centos. RUN commands execute while building and CMD commands execute while starting container. 
+We need to install JDK because jenkins runs on java.
+We configure Jenkins to able to use sudo.
+When server is run/created http and jenkins automatically starts.
+```
 ```
 #docker build -t jenkins:v1 .
 #docker run -dit -P --name j1 jenkins:v1
