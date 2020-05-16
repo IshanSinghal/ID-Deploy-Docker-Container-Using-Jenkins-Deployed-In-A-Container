@@ -13,3 +13,5 @@
     start the container again.
 ```
 
+## Step 1  - Create Dockerfile
+                            ![Dockerfile Jenkins](/images/Jenkins_Dockerfile)
