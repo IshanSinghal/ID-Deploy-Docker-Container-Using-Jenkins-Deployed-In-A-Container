@@ -35,6 +35,8 @@ Email Notification
 Provide your HOST IP in SSH settings.
 Configure smtp.
 ```
+![Dockerfile Jenkins](/images/email_setup.jpeg)
+
 ## Step 3 - Download docker images
 ```
 #docker pull vimal13/apache-webserver-php
